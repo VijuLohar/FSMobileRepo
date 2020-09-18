@@ -19,10 +19,6 @@
           <IsConstant>true</IsConstant>
         </DetailItem>
         <DetailItem SchemaName="websiteurl"/>
-        <DetailItem SchemaName="address1_city"/>
-        <DetailItem SchemaName="address1_county"/>
-        <DetailItem SchemaName="address1_latitude"/>
-        <DetailItem SchemaName="address1_name"/>
         <DetailItem separator="true" xsi:type="SeparatorDetailItem">
           <IsConstant>true</IsConstant>
         </DetailItem>
@@ -51,6 +47,11 @@
     <FormTab xsi:type="AssociatedTab">
       <Name>Notes List</Name>
       <Binding SchemaName="annotation.objectid"/>
+    </FormTab>
+    <FormTab xsi:type="SignatureTab">
+      <Name>Signature</Name>
+      <EntityName>annotation</EntityName>
+      <Commands>4097</Commands>
     </FormTab>
   </SerializedChildrenV2>
 </EntityForm>
